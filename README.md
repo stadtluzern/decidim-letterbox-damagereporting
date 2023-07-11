@@ -1,4 +1,4 @@
-# Reporting proposals component for Decidim
+![imatge](https://github.com/stadtluzern/decidim-letterbox-damagereporting/assets/40388743/b2d6feaf-17fd-4983-a71c-267cd34bfb39)# Reporting proposals component for Decidim
 
 [![[CI] Lint](https://github.com/openpoke/decidim-module-reporting-proposals/actions/workflows/lint.yml/badge.svg)](https://github.com/openpoke/decidim-module-reporting-proposals/actions/workflows/lint.yml)
 [![[CI] Test (unit)](https://github.com/openpoke/decidim-module-reporting-proposals/actions/workflows/test_unit.yml/badge.svg)](https://github.com/openpoke/decidim-module-reporting-proposals/actions/workflows/test_unit.yml)
@@ -70,27 +70,27 @@ It provides a new component called "Reporting Proposals" that can be added in ad
 This module provides the following features:
 
 1. **Reporting Proposals Component**: A new component that can be added to any participatory space. It allows to create proposals in one-step form with some optimization for mobile devices. Users can add photos using the phone's camera directly and also use the device's GPS to establish a precise a geolocated address with one click. Some of the options can be used in the normal proposal's component too (but in this case they 2 steps behavior is maintained).
-  ![Reporting proposal creationg](features/proposal.png)
+![imatge](https://github.com/stadtluzern/decidim-letterbox-damagereporting/assets/40388743/854ad7a6-3749-47ef-ac61-04a624c6d7ca)
 
 2. **Comparison by proximity**: By default, reporting proposals are compared by proximity before publishing (as they are geolocated by default). This can be disabled in the component's settings.
-  ![Compare by proximity](features/proximity.png)
+![imatge](https://github.com/stadtluzern/decidim-letterbox-damagereporting/assets/40388743/853d54a5-d788-4c8b-a2d7-f01fc8427f72)
 
 3. **Automatic assignation of valuators**: When a proposal is created, admins usually have to assign valuators manually to it. This module allows admins to assign valuators to a category directly. This will automatically assign all valuators in that category to any proposal/reporting proposal created under it (and also existing proposals). This avoids the need of manually assign proposals to valuators. This behavior can be disabled in the component's settings.
-  ![Valuators in categories](features/categories.png)
+![imatge](https://github.com/stadtluzern/decidim-letterbox-damagereporting/assets/40388743/cd9abd44-962e-45c7-ae4d-0a1fb63d49dc)
 
 4. **Valuators empowerment**: A number of features allow valuators to have more control over the proposals they are evaluating. They can assign other valuators (instead of themselves) and they can change or add photos to a proposal. All of it is configurable. Also, valuators can be assigned directly in the proposal's answering page instead of using the bulk assignation feature. Additionally, privates note can be edited and links in it are clickable.
-  ![Valuators empowerment](features/answering1.png)
+![imatge](https://github.com/stadtluzern/decidim-letterbox-damagereporting/assets/40388743/9c4d8c61-e68c-49f8-bdda-a19bf299c01f)
 
 5. **Overdue proposals**: This module allows to set a number of days after which a proposal is considered overdue. This is configurable and can be disabled. This feature affects the admin list of proposals, adding visual notes, color coded, to facilitate the identification of overdue proposals and preventing admins to leave unanswered proposals for a long time.
-  ![Overdue proposals](features/overdues.png)
+![imatge](https://github.com/stadtluzern/decidim-letterbox-damagereporting/assets/40388743/b52726ba-9757-4104-aea8-21e4760cdd75)
 
 6. **Improved notifications**: Some notifications are added, and some existing ones are improved. For instance, valuators and admins can receive notifications after a proposal has been added and it's content includes a direct link to the proposal and its answering page.
 
 7. **Hide proposals without reporting**: Administrators can hide proposals directly, without using the reporting process. Also, authors who's content has been hidden receive a notification.
 
 8. **Proposal answers templates**: Administrators can create templates for the answers to proposals. This is useful to provide a standard answer to proposals that are similar. This feature requires to enable the `decidim-templates` official module.
-  ![Templates for proposals answers](features/templates1.png)
-  ![Applying a template](features/templates2.png)
+![imatge](https://github.com/stadtluzern/decidim-letterbox-damagereporting/assets/40388743/59bf3696-d084-4a72-88ea-b7206a02213c)
+![imatge](https://github.com/stadtluzern/decidim-letterbox-damagereporting/assets/40388743/52a87af0-4e09-479c-8d55-f727456b11ef)
 
 ### Customization
 
