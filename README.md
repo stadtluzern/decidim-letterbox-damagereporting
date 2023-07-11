@@ -1,4 +1,4 @@
-![imatge](https://github.com/stadtluzern/decidim-letterbox-damagereporting/assets/40388743/b2d6feaf-17fd-4983-a71c-267cd34bfb39)# Reporting proposals component for Decidim
+# Reporting proposals component for Decidim
 
 [![[CI] Lint](https://github.com/openpoke/decidim-module-reporting-proposals/actions/workflows/lint.yml/badge.svg)](https://github.com/openpoke/decidim-module-reporting-proposals/actions/workflows/lint.yml)
 [![[CI] Test (unit)](https://github.com/openpoke/decidim-module-reporting-proposals/actions/workflows/test_unit.yml/badge.svg)](https://github.com/openpoke/decidim-module-reporting-proposals/actions/workflows/test_unit.yml)
